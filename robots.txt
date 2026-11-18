@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://liam-a-edwards.github.io/sitemap.xml
