@@ -4,7 +4,6 @@ cv:
   email: liam@robots.ox.ac.uk
   summary: DPhil student in the AIMS CDT at the University of Oxford, working with Ingmar Posner (A2I) and Andrea Vedaldi (VGG) on vision and world modeling for robotic manipulation. Background in mechanical engineering and robot learning, spanning diffusion-policy manipulation, sim2sim validation for humanoid locomotion, and LLM methods for biomedical reasoning.
 
-
   address:
     city: Oxford
     region: UK
