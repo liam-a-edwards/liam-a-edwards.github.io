@@ -1,9 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Humanoids":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1001495/all-proceedings
+  color: "#00629b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Commun. Med.":
+  url: https://www.nature.com/commsmed/
+  color: "#c8102e"
 
-"Vision":
-  color: "#009f36"
+"Adv. Sci.":
+  url: https://advanced.onlinelibrary.wiley.com/journal/21983844
+  color: "#2e7d32"
