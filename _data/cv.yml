@@ -2,7 +2,8 @@ cv:
   name: Liam Edwards
   label: DPhil Student, University of Oxford
   email: liam@robots.ox.ac.uk
-  summary: Robot learning and control researcher focused on real-world deployment. DPhil student at the University of Oxford working to enable semantic understanding and robust manipulation in unstructured environments through multimodal learning.
+  summary: DPhil student in the AIMS CDT at the University of Oxford, working with Ingmar Posner (A2I) and Andrea Vedaldi (VGG) on vision and world modeling for robotic manipulation. Background in mechanical engineering and robot learning, spanning diffusion-policy manipulation, sim2sim validation for humanoid locomotion, and LLM methods for biomedical reasoning.
+
 
   address:
     city: Oxford
@@ -18,7 +19,6 @@ cv:
         start_date: 2026-10
         highlights:
           - "Supervisors: Ingmar Posner and Andrea Vedaldi"
-          - A2I Lab, Oxford Robotics Institute (ORI)
 
       - institution: University of California, Los Angeles (UCLA)
         location: Los Angeles, CA

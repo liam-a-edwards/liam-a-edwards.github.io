@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: DPhil, Autonomous Intelligent Machines and Systems (<a href='https://aims.robots.ox.ac.uk/'>AIMS</a>) CDT
+subtitle: DPhil Student, <a href='https://aims.robots.ox.ac.uk/'>AIMS CDT</a> · <a href='https://ori.ox.ac.uk/groups/a2i'>A2I</a> & <a href='https://www.robots.ox.ac.uk/~vgg/'>VGG</a>, University of Oxford
 
 profile:
   align: right
@@ -23,8 +23,27 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a DPhil student in the AIMS CDT at the University of Oxford, supervised by [Ingmar Posner](https://eng.ox.ac.uk/people/ingmar-posner) and [Andrea Vedaldi](https://www.robots.ox.ac.uk/~vedaldi/) as part of the [Applied Artificial Intelligence Lab](https://ori.ox.ac.uk/groups/a2i) and the [Visual Geometry Group](https://www.robots.ox.ac.uk/~vgg/). I'm interested in vision and world modeling for robotic manipulation, with the goal of robots that generalize to novel objects and environments. My DPhil is funded by an Amazon Fellowship and the Whitehead Scholarship at Trinity College.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I previously received my Bachelor's and Master's degrees from the University of California, Los Angeles, where I worked on LLMs for biomedical reasoning with [Neil Lin](https://samueli.ucla.edu/people/neil-lin/) and [Cho-Jui Hsieh](https://web.cs.ucla.edu/~chohsieh/), and robot locomotion with [Dennis Hong](https://samueli.ucla.edu/people/dennis-hong/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<!--
+  Wider screens only: raise the profile photo so its top lines up with the name,
+  and keep the bio in its own column beside the photo (no wrapping underneath).
+-->
+<style>
+  @media (min-width: 768px) {
+    .post > article > .profile {
+      margin-top: -6rem;
+    }
+    .post > article > .clearfix {
+      display: flow-root;
+    }
+    .post > article > .clearfix::after {
+      content: none;
+    }
+    .post > article > .clearfix ~ * {
+      clear: both;
+    }
+  }
+</style>
