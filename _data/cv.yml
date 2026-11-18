@@ -1,189 +1,109 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  name: Liam Edwards
+  label: DPhil Student, University of Oxford
+  email: liam@robots.ox.ac.uk
+  summary: Robot learning and control researcher focused on real-world deployment. DPhil student at the University of Oxford working to enable semantic understanding and robust manipulation in unstructured environments through multimodal learning.
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: Oxford
+    region: UK
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Oxford
+        location: Oxford, UK
+        url: https://aims.robots.ox.ac.uk/
+        area: Autonomous Intelligent Machines and Systems (AIMS) CDT
+        studyType: DPhil
+        start_date: 2026-10
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Supervisors: Ingmar Posner and Andrea Vedaldi"
+          - A2I Lab, Oxford Robotics Institute (ORI)
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of California, Los Angeles (UCLA)
+        location: Los Angeles, CA
+        area: Mechanical Engineering
+        studyType: B.S. and M.S.
+        start_date: 2021-09
+        end_date: 2026-06
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: UCLA
+        position: Robust Machine Learning and Mechanobioengineering
+        location: Los Angeles, CA
+        start_date: 2023-09
+        end_date: 2026-10
+        summary: "Advisors: Neil Lin and Cho-Jui Hsieh"
         highlights:
-          - Relativity
-          - Description 2.
+          - Developed PairLLM, a comparative fine-tuning approach that teaches language models signed property differences between molecule pairs and recombines them into a common ranking via least squares. Outperformed pointwise prediction on scaffold-disjoint toxicity, permeability, and solubility benchmarks with only 50–100 fine-tuning compounds per property. (First-author manuscript, submitted to *PNAS Nexus*)
+          - Developed an autonomous prompt-evolution framework enabling LLMs to perform interpretable, evidence-linked diagnostic reasoning for cancer pathology classification, and contributed to mechanism-informed language modeling and oxygenated 3D screening that identified berberine–enzalutamide synergy in prostate cancer models. (Published in *Communications Medicine* and *Advanced Science*)
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: UCLA
+        position: Robotics & Mechanisms Laboratory (RoMeLa)
+        location: Los Angeles, CA
+        start_date: 2024-11
+        end_date: 2025-09
+        summary: "Advisor: Dennis Hong"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Built a robust Isaac Sim–based sim2sim pipeline for a humanoid with challenging mass distribution and mobility constraints, providing a safe, controlled environment to validate locomotion policies pre-deployment. (Published at *IEEE-RAS International Conference on Humanoid Robots*)
+          - Implemented an Isaac Sim replay system to analyze robot data, streamlining debugging and validating policy performance without hardware risk.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: UC Berkeley
+        position: Mechanical Systems Control Lab
+        location: Berkeley, CA
+        start_date: 2023
+        end_date: 2024
+        summary: "Advisor: Masayoshi Tomizuka (Summers 2023, 2024)"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Designed and trained a diffusion policy to perform manipulation tasks with 6D object pose estimation and explored an object-centric task segmentation framework to assist in long-horizon task planning.
+          - Developed a custom ROS2 framework to handle data collection and processing, motion planning, and TCP/IP control.
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Amazon Fellowship
+        awarder: Amazon
+        date: 2026 – 2030
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Whitehead Scholarship
+        awarder: Trinity College, University of Oxford
+        date: 2026 – 2030
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+      - title: "Comparative Adaptation Enables Language Models to Rank Molecules with Limited Fine-Tuning Data"
+        publisher: PNAS Nexus
+        releaseDate: Under review
+        summary: "**L. Edwards**, T. Xie, Y. Hong, A. Bermudez, C. Hsieh, N. Lin"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: "Mechanism-Informed Language Modeling and Oxygenated 3D Screening Identify Berberine–Enzalutamide Synergy in Prostate Cancer Models"
+        publisher: Advanced Science, e78186
+        releaseDate: 2026
+        url: https://doi.org/10.1002/advs.78186
+        summary: "C.-H. Lo, K. Shi, L. Kafadarian, A. Bermudez, J. Diaz, **L. Edwards**, Y. Hong, Z. Chen, H. Hwang, W. Yan, A. Levinson, R. Damoiseaux, C. Hsieh, T. Stoyanova, A. Goldstein, N. Lin"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: "Adaptive Diagnostic Reasoning Framework for Pathology with Multimodal Large Language Models"
+        publisher: Communications Medicine 6(1), 236
+        releaseDate: 2026
+        url: https://doi.org/10.1038/s43856-026-01491-z
+        summary: "Y. Hong, J. Kao, **L. Edwards**, N. Liu, C. Huang, A. Oliveira-Kowaleski, C. Hsieh, N. Lin"
+
+      - title: "Learning to Walk in Costume: Adversarial Motion Priors for Aesthetically Constrained Humanoids"
+        publisher: IEEE-RAS International Conference on Humanoid Robots (Humanoids)
+        releaseDate: 2025
+        url: https://doi.org/10.1109/Humanoids65713.2025.11203191
+        summary: "A. Alvarez, F. Zargarbashi, H. Liu, S. Wang, **L. Edwards**, J. Anz, A. Xu, F. Shi, S. Coros, D. Hong"
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
       - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+        icon: fa-solid fa-brain
+        keywords: PyTorch, Diffusion Policies, Reinforcement Learning, LLM Fine-Tuning, Isaac Sim
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Robotics and Controls
+        icon: fa-solid fa-robot
+        keywords: ROS2, MoveIt, Simulink, TCP/IP
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: Python, C/C++/C#, Linux, Docker
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Hardware and Fabrication
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: SolidWorks, MATLAB, Arduino, Raspberry Pi, 3D Printing, Machining (mill, lathe, CNC)
