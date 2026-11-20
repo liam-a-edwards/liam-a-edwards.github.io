@@ -90,6 +90,24 @@ cv:
         url: https://doi.org/10.1109/Humanoids65713.2025.11203191
         summary: "A. Alvarez, F. Zargarbashi, H. Liu, S. Wang, **L. Edwards**, J. Anz, A. Xu, F. Shi, S. Coros, D. Hong"
 
+    Teaching:
+      - position: "MCD BIO M130: Fundamentals of Digital Imaging and Image Processing"
+        company: Teaching Assistant, UCLA
+        location: Los Angeles, CA
+        date: 2026
+        summary: Spring 2026
+        highlights:
+          - Led weekly discussion sections, alternating between coding tutorials and research paper discussions.
+
+      - position: "MAE 157W: Basic Mechanical and Aerospace Engineering Laboratory with Writing"
+        company: Teaching Assistant, UCLA
+        location: Los Angeles, CA
+        start_date: 2025
+        end_date: 2026
+        summary: Fall 2025, Winter 2026
+        highlights:
+          - Ran lab sections and equipment demonstrations; graded lab reports.
+
     Skills:
       - name: Machine Learning
         icon: fa-solid fa-brain
