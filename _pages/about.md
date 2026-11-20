@@ -46,4 +46,7 @@ I previously received my Bachelor's and Master's degrees from the University of 
       clear: both;
     }
   }
+    .social .contact-icons {
+    font-size: 3rem;
+  }
 </style>
